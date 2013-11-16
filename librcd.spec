@@ -13,7 +13,7 @@ to handle very short titles, like ID3 tags, file names and etc, and provides
 very high accuracy even for short 3-4 letter words. Current version supports
 Russian and Ukrainian languages and able to distinguish UTF-8, KOI8-R, CP1251,
 CP866, ISO8859-1. If compared with Enca, LibRCC provides better detection
-accuracy on short titles and is able to detect ISO8859-1 (non-cyrillic)
+accuracy on short titles and is able to detect ISO8859-1 (non-Cyrillic)
 encoding what allows to properly display correct ID3 v.1 titles.
 
 
@@ -27,7 +27,7 @@ to handle very short titles, like ID3 tags, file names and etc, and provides
 very high accuracy even for short 3-4 letter words. Current version supports
 Russian and Ukrainian languages and able to distinguish UTF-8, KOI8-R, CP1251,
 CP866, ISO8859-1. If compared with Enca, LibRCC provides better detection
-accuracy on short titles and is able to detect ISO8859-1 (non-cyrillic)
+accuracy on short titles and is able to detect ISO8859-1 (non-Cyrillic)
 encoding what allows to properly display correct ID3 v.1 titles.
 
 The %{name}-devel package contains libraries and header files for
