@@ -1,7 +1,7 @@
 Name:           librcd
 Version:        0.1.14
-Release:        1%{?dist}
-Summary:        Library for autodection charset of Russian and Ukrainian text
+Release:        2%{?dist}
+Summary:        Library for autodetection charset of Russian and Ukrainian text
 
 License:        LGPLv2+
 URL:            http://rusxmms.sourceforge.net
@@ -57,11 +57,16 @@ find $RPM_BUILD_ROOT -name '*.la' -delete
 %{_libdir}/librcd.so.*
 
 %files devel
+%doc ChangeLog
 %{_includedir}/librcd.h
 %{_libdir}/librcd.so
 %{_libdir}/pkgconfig/%{name}.pc
 
 
 %changelog
+* Sat Nov 16 2013 Ivan Romanov <drizt@land.ru> - 0.1.14-2
+- added ChangeLog to devel subpackage
+- fixed typo in Summary
+
 * Sat Nov 16 2013 Ivan Romanov <drizt@land.ru> - 0.1.14-1
 - initial version of package
